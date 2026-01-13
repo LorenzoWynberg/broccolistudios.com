@@ -1,249 +1,302 @@
-# XR Studio Website Content Structure
+# Broccoli Studios
 
 ## HOME
 
-### Hero
+### Hero Section
 
-- **H1:** XR Studio — Production & Experience Engine
-- **Subhead:** We execute complex live experiences with precision, control, and international standards.
-- **Primary CTA:** Request a Production Call
-- **Secondary CTA:** View Our Work
+**H1:** Broccoli Studios — Technology, Data & Ecosystem Design
 
-### Trust / Quick Proof Strip
+**Subheading:** We design and operate digital and physical ecosystems that transform experiences into scalable systems and sustainable growth.
 
-- Multi-brand production portfolio
-- Large-scale operations capability
-- End-to-end execution teams
-- Data-driven improvement loops
+**Primary CTA:** Start a Strategy Call
+**Secondary CTA:** Explore Our Work
 
-### What We Do (service snapshot)
+---
 
-Cards linking to Services:
-- Experience Execution
-- Technical & Stage Design
-- On-Site Operations
-- Audiovisual Production
-- Performance & Feedback
+### Positioning
+
+Broccoli Studios is a technology and strategy company specialized in ecosystem design, platform development, and data-driven growth.
+
+We don't execute campaigns.
+We don't sell isolated deliverables.
+We design systems.
+
+---
+
+### Core Capabilities
+
+- Ecosystem & Business Architecture
+- Technology & Platform Development
+- Data, AI & Intelligence
+- Growth & Revenue Systems
+- Experience Strategy (Design Layer)
+
+---
+
+### Proof of Scale
+
+- Proprietary platforms in production
+- Government-grade digital systems
+- High-volume experience ecosystems
+- Multi-industry application
+- Long-term operating partnerships
+
+---
+
+### Ecosystem Alignment
+
+**Designed by Broccoli. Executed by XR Studio.**
+
+Broccoli designs the system, the technology, and the growth model.
+XR Studio executes the experience with precision and operational control.
+
+---
 
 ### Featured Work
 
-Carousel/grid: Electric Animals, Pura Tinta Fest, Blockchain Jungle, Magflow, Sweetspot
-
-**CTA:** Explore Case Studies
-
-### How We Work (4 steps)
-
-Blueprint Review → Production Planning → Live Execution → Reporting & Optimization
-
-### Ecosystem Section (Broccoli alignment)
-
-- **Headline:** Strategy designed by Broccoli. Executed by XR Studio.
-- Short explanation + link to "Process" or "About"
-
-### CTA Footer Band
-
-- **Headline:** Execute with confidence.
-- **Button:** Contact XR Studio
+Electric Animals · Pura Tinta · Blockchain Jungle · Magflow · Sweetspot · Bandida Tattoo Studio · Magflow Studio
 
 ---
 
-## SERVICES (overview page)
+### CTA Band
 
-### Intro
-
-XR Studio delivers execution across production, technical design, operations, and content capture.
-
-### Service blocks (each links to its own page)
-
-1. Experience Execution
-2. Technical & Stage Design
-3. On-Site Operations
-4. Audiovisual Production
-5. Performance & Feedback Loop
-
-### Industries / Use Cases
-
-- Festivals & concerts
-- Conferences & summits
-- Brand activations
-- Competitive gaming / esports
-- Cultural events & conventions
-
-### CTA
-
-Book a production consult
+**Build systems that scale.**
+Contact Broccoli Studios
 
 ---
 
-## SERVICE DETAIL TEMPLATE (for each service)
+## SERVICES
 
-- **Hero:** what it is + outcomes
-- **What's included** (bullets)
-- **Typical deliverables** (plans, run-of-show, tech riders, staffing plan, etc.)
-- **How we measure success** (KPIs)
-- **Related case studies** (2–3 links)
-- **CTA**
+### 1. Ecosystem & Business Architecture
 
----
+We design the structural foundation before anything is built.
 
-## WORK (Case Studies index)
+- Digital and physical ecosystem design
+- Business model architecture
+- Customer and user journey mapping
+- Data architecture design
+- Go-to-market and scaling strategy
 
-- **Filter chips:** Festivals, Conferences, Culture/Conventions, Esports, Content
-- Grid of case studies (brand tiles)
-- **CTA:** Let's talk
+**Outcome:** clear systems, reduced risk, scalable foundations
 
 ---
 
-## PROCESS
+### 2. Technology & Platform Development
 
-### Intro
+We build platforms that function as long-term infrastructure.
 
-A disciplined execution framework built for scale.
+- Proprietary platforms
+- API integrations (ticketing, fintech, CRM, biometrics)
+- Dashboards and operational control systems
+- Automation and cloud architecture
 
-### 4-step workflow (detailed)
-
-1. Blueprint Review
-2. Production Planning
-3. Live Execution & Control
-4. Reporting & Continuous Improvement
-
-### What clients get
-
-- Clear accountability
-- Operational visibility
-- Risk reduction
-- Consistent standards
-
-### CTA
-
-Request a Production Call
+**Outcome:** operational control, scalability, independence
 
 ---
 
-## ABOUT
+### 3. Data, AI & Intelligence
 
-### Who we are
+We turn data into decisions.
 
-XR Studio is the execution engine for high-impact experiences across the region.
+- Data capture frameworks
+- Predictive analytics
+- Advanced segmentation
+- Revenue intelligence
+- Decision-support systems
 
-### Our role in the ecosystem
-
-- Broccoli designs the system
-- XR Studio executes the experience
-
-### Values / standards
-
-- Precision
-- Reliability
-- Safety & compliance mindset
-- Continuous improvement
-
-### Team / capabilities (high level)
-
-Production, technical, operations, audiovisual
+**Outcome:** smarter decisions, optimized performance, lower uncertainty
 
 ---
 
-## CONTACT
+### 4. Growth & Revenue Systems
 
-### Contact form
+We design systems that generate recurring growth.
 
-Fields: Name, company, project type, dates, city/venue, expected attendance, scope
+- Growth loops
+- Funnel architecture and automation
+- CRM and lifecycle systems
+- Monetization strategies
 
-### Quick selectors
-
-- Festival / Concert
-- Conference / Summit
-- Convention
-- Brand Activation
-- Esports
-
-### Response promise (copy)
-
-We'll reply with next steps and a discovery checklist.
+**Outcome:** sustainable growth, repeatable revenue
 
 ---
 
-## CASE STUDIES
+### 5. Experience Strategy
+
+We design experiences as systems, not events.
+
+- Experience architecture
+- Conceptual design for physical and digital experiences
+- Execution blueprints for production teams
+- Technology–experience alignment
+
+**Outcome:** experiences that scale and generate long-term value
+
+---
+
+## PLATFORMS & TECHNOLOGY
+
+Broccoli Studios builds API-first, modular platforms designed for scale, integration, and longevity.
+
+- Modular architecture
+- Secure cloud infrastructure
+- Data-first design
+- Compliance and scalability mindset
+
+---
+
+## METHOD
+
+### Our System-Driven Approach
+
+1. Ecosystem Definition
+2. System & Data Architecture
+3. Platform Development
+4. Growth System Integration
+5. Continuous Optimization
+
+**What clients gain:**
+Control · Scalability · Visibility · Measurable results
+
+---
+
+## WORK — CASE STUDIES (OWNED ECOSYSTEMS)
+
+---
 
 ### Electric Animals
 
-**Category:** Festival Production & Live Experience Execution
+**Category:** Experience Ecosystem & Platform Strategy
 
-**Summary:** Electric Animals is a flagship electronic music festival experience executed through a high-control production model designed for scale, consistency, and premium attendee experience. XR Studio leads end-to-end execution across technical planning, vendor coordination, onsite operations, and live-show control.
+**Summary:**
+Electric Animals operates as a large-scale experience ecosystem rather than a single festival. Broccoli Studios designed the system connecting audience data, monetization, experience design, and long-term brand growth.
 
-**XR Studio scope:**
-- Full production execution and venue operations
-- Technical coordination (audio, lighting, video) and run-of-show control
-- Artist/backstage operations and flow management
-- On-site incident response and operational decision-making
-- Audiovisual capture strategy to convert the event into long-term brand assets
+**Broccoli Studios scope:**
+- Ecosystem and business model architecture
+- Audience journey and data capture design
+- Platform and system integrations
+- Growth and revenue system design
+- Experience blueprint for execution teams
 
-**Outcome focus:** predictable execution, premium production standards, scalable operating model
+**Outcome focus:** scalable ecosystem, data-driven decisions, repeatable growth model
 
 ---
 
 ### Pura Tinta Fest
 
-**Category:** Convention Production, Floor Operations & Brand Experience
+**Category:** Cultural Convention Platform Architecture
 
-**Summary:** Pura Tinta Fest is a large-scale cultural convention that demands operational precision across complex attendee flows, exhibitor needs, and continuous programming. XR Studio executes the event as a controlled system—balancing experience, safety, vendor logistics, and content capture.
+**Summary:**
+Pura Tinta Fest required a system capable of supporting large-scale attendance, exhibitors, and artists while preserving cultural identity. Broccoli Studios designed the digital and operational ecosystem behind the convention.
 
-**XR Studio scope:**
-- Convention production and show-floor operations
-- Vendor/exhibitor coordination and logistics
-- Stage/program execution and timing control
-- Attendee flow design support and on-site enforcement
-- Audiovisual production for multi-day storytelling and promotion
+**Broccoli Studios scope:**
+- Platform and data architecture
+- Stakeholder journey design
+- Business model optimization
+- Experience system blueprint
 
-**Outcome focus:** smooth show-floor operations, consistent programming delivery, strong brand experience
+**Outcome focus:** scalable convention model, operational clarity, improved stakeholder experience
 
 ---
 
 ### Blockchain Jungle
 
-**Category:** Conference Execution, Speaker Ops & Technical Production
+**Category:** Conference & Knowledge Ecosystem Design
 
-**Summary:** Blockchain Jungle is a multi-stakeholder conference environment requiring precise timing, speaker management, and reliable technical production. XR Studio runs the operational backbone—ensuring sessions, stages, and show flow execute cleanly for partners, speakers, and attendees.
+**Summary:**
+Blockchain Jungle functions as a knowledge and networking platform rather than a one-off event. Broccoli Studios designed the system connecting speakers, sponsors, attendees, content, and data.
 
-**XR Studio scope:**
-- Conference production and stage management
-- Speaker operations, schedules, and backstage coordination
-- Technical execution (A/V, lighting, screens) with redundancy mindset
-- Front-of-house operations and attendee experience control
-- Post-event reporting and optimization insights
+**Broccoli Studios scope:**
+- Conference ecosystem architecture
+- Data and segmentation strategy
+- Platform integrations
+- Monetization and partner value systems
 
-**Outcome focus:** zero-friction conference flow, reliable stage execution, professional stakeholder experience
+**Outcome focus:** structured conference ecosystem, repeatable annual model
 
 ---
 
 ### Magflow
 
-**Category:** Event Production Support & Audiovisual Capture
+**Category:** Culture & Media Ecosystem Design
 
-**Summary:** Magflow is a culture and music platform that translates into live experiences and content-driven programming. XR Studio supports execution with production discipline and captures content designed to extend impact beyond event day.
+**Summary:**
+Magflow operates at the intersection of music, culture, and live experiences. Broccoli Studios designed the ecosystem allowing content, community, and experiences to function as a scalable platform.
 
-**XR Studio scope:**
-- Production planning and live execution support
-- Technical coordination scaled to venue and format
-- Audiovisual production for episodic and promotional use
-- Operational staffing and onsite control as required
+**Broccoli Studios scope:**
+- Platform and content ecosystem design
+- Growth and distribution strategy
+- Audience data architecture
+- Experience frameworks
 
-**Outcome focus:** consistent delivery, high-quality content assets, repeatable formats
+**Outcome focus:** unified audience system, scalable cultural platform
 
 ---
 
 ### Sweetspot
 
-**Category:** Esports Event Operations & Competitive Production
+**Category:** Esports Ecosystem & Competitive Platform Design
 
-**Summary:** Sweetspot competitions require a different type of precision: competitive integrity, technical reliability, and audience-ready execution. XR Studio operates events with structured workflows—ensuring brackets, timing, production cues, and onsite experience run smoothly.
+**Summary:**
+Sweetspot requires structured systems to support competitive integrity, recurring tournaments, and audience growth. Broccoli Studios designed the architecture behind operations, data, and monetization.
 
-**XR Studio scope:**
-- Esports event operations and run-of-show execution
-- Stage/stream coordination and timing discipline
-- Onsite logistics for players, staff, and audience
-- Technical production alignment for live viewing experience
-- Reporting loops to improve future tournaments
+**Broccoli Studios scope:**
+- Competitive ecosystem architecture
+- Platform and data system design
+- Growth and monetization systems
+- Experience strategy for live and digital formats
 
-**Outcome focus:** reliable competitive operations, clean execution, scalable tournament delivery
+**Outcome focus:** scalable esports platform, repeatable competition systems
+
+---
+
+### Bandida Tattoo Studio
+
+**Category:** Physical Business Ecosystem & Brand Platform
+
+**Summary:**
+Bandida Tattoo Studio functions as a premium physical business with strong cultural identity. Broccoli Studios designed the system that allows the studio to scale beyond a single location.
+
+**Broccoli Studios scope:**
+- Business and ecosystem architecture
+- Customer journey design
+- Digital and operational platform design
+- Growth strategy and experience framework
+
+**Outcome focus:** structured operations, scalable brand, consistent customer experience
+
+---
+
+### Magflow Studio
+
+**Category:** Creative Infrastructure & Talent Development Platform
+
+**Summary:**
+Magflow Studio operates as creative infrastructure for talent incubation and production. Broccoli Studios designed the system connecting creative output, services, and long-term growth.
+
+**Broccoli Studios scope:**
+- Platform and business model architecture
+- Artist and client journey design
+- Systemized studio operations
+- Monetization and growth strategy
+
+**Outcome focus:** repeatable operations, diversified revenue, scalable creative platform
+
+---
+
+## ABOUT
+
+Broccoli Studios is a technology and ecosystem design company focused on building systems that scale beyond individual projects.
+
+We design the system.
+We build the platform.
+We define how it grows.
+XR Studio executes the experience.
+
+---
+
+## CONTACT
+
+**Build infrastructure, not one-off solutions.**
+
+Start a strategy conversation with Broccoli Studios.
