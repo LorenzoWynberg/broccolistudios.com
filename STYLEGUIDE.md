@@ -124,10 +124,32 @@ className = 'mx-auto max-w-6xl';
 ### Cards
 
 ```tsx
+// Basic card
 className = 'border rounded-lg p-6 bg-background';
 
 // With hover
 className = 'border rounded-lg p-6 bg-background transition-colors hover:border-primary/50';
+```
+
+### Portfolio/Case Study Cards
+
+```tsx
+<div className="bg-background group hover:border-primary/50 overflow-hidden rounded-lg border transition-colors">
+  <div className="bg-muted relative aspect-[16/9] overflow-hidden">
+    <Image
+      src={imagePath}
+      alt={title}
+      fill
+      className="object-cover transition-transform duration-300 group-hover:scale-105"
+      sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw"
+    />
+  </div>
+  <div className="p-5">
+    <p className="text-primary mb-1 text-xs tracking-wider uppercase">{category}</p>
+    <h3 className="mb-2 text-lg font-semibold">{title}</h3>
+    <p className="text-muted-foreground mb-4 line-clamp-2 text-sm">{summary}</p>
+  </div>
+</div>
 ```
 
 ### Badges/Pills
