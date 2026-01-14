@@ -106,58 +106,37 @@ export function Work() {
   return (
     <section id="work" className="bg-secondary px-6 py-24 md:px-12 lg:px-24">
       <div className="mx-auto max-w-6xl">
-        <div className="mb-16 text-center">
+        <div className="mb-12 text-center">
           <h2 className="mb-4 text-3xl font-bold md:text-4xl">Our Work</h2>
           <p className="text-muted-foreground mx-auto max-w-2xl text-lg">
             Case studies from owned ecosystems we&apos;ve designed and operate
           </p>
         </div>
 
-        <div className="space-y-24">
-          {caseStudies.map((study, index) => (
+        <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
+          {caseStudies.map((study) => (
             <div
               key={study.title}
-              className={`grid items-center gap-8 lg:gap-12 ${
-                index % 2 === 0 ? 'lg:grid-cols-[1.2fr,1fr]' : 'lg:grid-cols-[1fr,1.2fr]'
-              }`}
+              className="bg-background group hover:border-primary/50 overflow-hidden rounded-lg border transition-colors"
             >
-              <div className={index % 2 === 1 ? 'lg:order-2' : ''}>
-                <p className="text-primary mb-2 text-sm tracking-wider uppercase">
-                  {study.category}
-                </p>
-                <h3 className="mb-4 text-2xl font-bold md:text-3xl">{study.title}</h3>
-                <p className="text-muted-foreground mb-6">{study.summary}</p>
-
-                <div className="mb-6">
-                  <p className="mb-2 font-medium">Broccoli Studios scope:</p>
-                  <ul className="text-muted-foreground space-y-1 text-sm">
-                    {study.scope.map((item) => (
-                      <li key={item} className="flex items-start">
-                        <span className="text-primary mr-2">•</span>
-                        {item}
-                      </li>
-                    ))}
-                  </ul>
-                </div>
-
-                <p className="border-t pt-4 text-sm">
-                  <span className="font-medium">Outcome focus:</span>{' '}
-                  <span className="text-muted-foreground">{study.outcome}</span>
-                </p>
-              </div>
-
-              <div
-                className={`bg-muted relative aspect-[16/10] overflow-hidden rounded-lg ${
-                  index % 2 === 1 ? 'lg:order-1' : ''
-                }`}
-              >
+              <div className="bg-muted relative aspect-[16/9] overflow-hidden">
                 <Image
                   src={study.image}
                   alt={study.title}
                   fill
-                  className="object-cover"
-                  sizes="(max-width: 768px) 100vw, 50vw"
+                  className="object-cover transition-transform duration-300 group-hover:scale-105"
+                  sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw"
                 />
+              </div>
+              <div className="p-5">
+                <p className="text-primary mb-1 text-xs tracking-wider uppercase">
+                  {study.category}
+                </p>
+                <h3 className="mb-2 text-lg font-semibold">{study.title}</h3>
+                <p className="text-muted-foreground mb-4 line-clamp-2 text-sm">{study.summary}</p>
+                <p className="text-muted-foreground border-t pt-3 text-xs">
+                  <span className="text-foreground font-medium">Outcome:</span> {study.outcome}
+                </p>
               </div>
             </div>
           ))}
