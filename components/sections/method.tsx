@@ -45,11 +45,8 @@ export function Method() {
         </div>
 
         <div className="mb-16 grid gap-8 md:grid-cols-2 lg:grid-cols-5">
-          {steps.map((step, index) => (
-            <div key={step.number} className="relative">
-              {index < steps.length - 1 && (
-                <div className="bg-border absolute top-8 left-full hidden h-px w-full -translate-x-1/2 lg:block" />
-              )}
+          {steps.map((step) => (
+            <div key={step.number}>
               <div className="text-primary/20 mb-2 text-4xl font-bold">{step.number}</div>
               <h3 className="mb-2 font-semibold">{step.title}</h3>
               <p className="text-muted-foreground text-sm">{step.description}</p>
