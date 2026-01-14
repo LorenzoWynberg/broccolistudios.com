@@ -1,25 +1,25 @@
-"use client";
+'use client';
 
-import { Button } from "@/components/ui/button";
-import { ArrowRight, ChevronDown } from "lucide-react";
+import { Button } from '@/components/ui/button';
+import { ArrowRight, ChevronDown } from 'lucide-react';
 
 export function Hero() {
   return (
-    <section className="relative min-h-screen flex flex-col justify-center px-6 md:px-12 lg:px-24">
+    <section className="relative flex min-h-screen flex-col justify-center px-6 md:px-12 lg:px-24">
       <div className="max-w-5xl">
-        <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight mb-6">
+        <h1 className="mb-6 text-4xl font-bold tracking-tight md:text-5xl lg:text-6xl">
           Broccoli Studios
-          <span className="block text-muted-foreground mt-2">
+          <span className="text-muted-foreground mt-2 block">
             Technology, Data & Ecosystem Design
           </span>
         </h1>
 
-        <p className="text-lg md:text-xl text-muted-foreground max-w-3xl mb-8">
-          We design and operate digital and physical ecosystems that transform
-          experiences into scalable systems and sustainable growth.
+        <p className="text-muted-foreground mb-8 max-w-3xl text-lg md:text-xl">
+          We design and operate digital and physical ecosystems that transform experiences into
+          scalable systems and sustainable growth.
         </p>
 
-        <div className="flex flex-col sm:flex-row gap-4 mb-16">
+        <div className="mb-16 flex flex-col gap-4 sm:flex-row">
           <Button size="lg" className="group">
             Start a Strategy Call
             <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" />
@@ -30,20 +30,20 @@ export function Hero() {
         </div>
 
         <div className="border-t pt-8">
-          <p className="text-sm text-muted-foreground mb-4 uppercase tracking-wider">
+          <p className="text-muted-foreground mb-4 text-sm tracking-wider uppercase">
             Core Capabilities
           </p>
           <div className="flex flex-wrap gap-3">
             {[
-              "Ecosystem & Business Architecture",
-              "Technology & Platform Development",
-              "Data, AI & Intelligence",
-              "Growth & Revenue Systems",
-              "Experience Strategy",
+              'Ecosystem & Business Architecture',
+              'Technology & Platform Development',
+              'Data, AI & Intelligence',
+              'Growth & Revenue Systems',
+              'Experience Strategy',
             ].map((capability) => (
               <span
                 key={capability}
-                className="px-3 py-1.5 bg-secondary text-secondary-foreground text-sm rounded-full"
+                className="bg-secondary text-secondary-foreground rounded-full px-3 py-1.5 text-sm"
               >
                 {capability}
               </span>
@@ -54,14 +54,12 @@ export function Hero() {
 
       <button
         onClick={() => {
-          document
-            .getElementById("positioning")
-            ?.scrollIntoView({ behavior: "smooth" });
+          document.getElementById('positioning')?.scrollIntoView({ behavior: 'smooth' });
         }}
         className="absolute bottom-8 left-1/2 -translate-x-1/2 animate-bounce"
         aria-label="Scroll down"
       >
-        <ChevronDown className="h-8 w-8 text-muted-foreground" />
+        <ChevronDown className="text-muted-foreground h-8 w-8" />
       </button>
     </section>
   );

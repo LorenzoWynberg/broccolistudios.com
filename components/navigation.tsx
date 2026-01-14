@@ -1,34 +1,34 @@
-"use client";
+'use client';
 
-import { useState } from "react";
-import { Button } from "@/components/ui/button";
-import { Menu, X } from "lucide-react";
+import { useState } from 'react';
+import { Button } from '@/components/ui/button';
+import { Menu, X } from 'lucide-react';
 
 const navItems = [
-  { label: "Services", href: "#services" },
-  { label: "Method", href: "#method" },
-  { label: "Work", href: "#work" },
-  { label: "About", href: "#about" },
+  { label: 'Services', href: '#services' },
+  { label: 'Method', href: '#method' },
+  { label: 'Work', href: '#work' },
+  { label: 'About', href: '#about' },
 ];
 
 export function Navigation() {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <nav className="fixed top-0 left-0 right-0 z-50 bg-background/80 backdrop-blur-md border-b">
-      <div className="max-w-7xl mx-auto px-6 md:px-12">
-        <div className="flex items-center justify-between h-16">
-          <a href="#" className="font-bold text-lg">
+    <nav className="bg-background/80 fixed top-0 right-0 left-0 z-50 border-b backdrop-blur-md">
+      <div className="mx-auto max-w-7xl px-6 md:px-12">
+        <div className="flex h-16 items-center justify-between">
+          <a href="#" className="text-lg font-bold">
             Broccoli Studios
           </a>
 
           {/* Desktop navigation */}
-          <div className="hidden md:flex items-center gap-8">
+          <div className="hidden items-center gap-8 md:flex">
             {navItems.map((item) => (
               <a
                 key={item.href}
                 href={item.href}
-                className="text-sm text-muted-foreground hover:text-foreground transition-colors"
+                className="text-muted-foreground hover:text-foreground text-sm transition-colors"
               >
                 {item.label}
               </a>
@@ -38,7 +38,7 @@ export function Navigation() {
 
           {/* Mobile menu button */}
           <button
-            className="md:hidden p-2"
+            className="p-2 md:hidden"
             onClick={() => setIsOpen(!isOpen)}
             aria-label="Toggle menu"
           >
@@ -49,13 +49,13 @@ export function Navigation() {
 
       {/* Mobile navigation */}
       {isOpen && (
-        <div className="md:hidden bg-background border-b">
-          <div className="px-6 py-4 space-y-4">
+        <div className="bg-background border-b md:hidden">
+          <div className="space-y-4 px-6 py-4">
             {navItems.map((item) => (
               <a
                 key={item.href}
                 href={item.href}
-                className="block text-muted-foreground hover:text-foreground transition-colors"
+                className="text-muted-foreground hover:text-foreground block transition-colors"
                 onClick={() => setIsOpen(false)}
               >
                 {item.label}
