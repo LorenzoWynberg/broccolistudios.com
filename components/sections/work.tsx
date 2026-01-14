@@ -118,7 +118,7 @@ export function Work() {
             <div
               key={study.title}
               className={`grid items-center gap-8 lg:gap-12 ${
-                index % 2 === 0 ? 'lg:grid-cols-[1fr,1.2fr]' : 'lg:grid-cols-[1.2fr,1fr]'
+                index % 2 === 0 ? 'lg:grid-cols-[1.2fr,1fr]' : 'lg:grid-cols-[1fr,1.2fr]'
               }`}
             >
               <div className={index % 2 === 1 ? 'lg:order-2' : ''}>
@@ -147,7 +147,7 @@ export function Work() {
               </div>
 
               <div
-                className={`bg-muted relative aspect-[4/3] overflow-hidden rounded-lg ${
+                className={`bg-muted relative aspect-[16/10] overflow-hidden rounded-lg ${
                   index % 2 === 1 ? 'lg:order-1' : ''
                 }`}
               >
