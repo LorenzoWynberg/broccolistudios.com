@@ -2,7 +2,6 @@
 
 import { useState } from 'react';
 import { Button } from '@/components/ui/button';
-import { Logo } from '@/components/logo';
 import { Menu, X } from 'lucide-react';
 
 const navItems = [
@@ -19,9 +18,8 @@ export function Navigation() {
     <nav className="bg-background/80 fixed top-0 right-0 left-0 z-50 border-b backdrop-blur-md">
       <div className="mx-auto max-w-7xl px-6 md:px-12">
         <div className="flex h-16 items-center justify-between">
-          <a href="#" className="flex items-center gap-2 font-bold">
-            <Logo size={28} />
-            <span>Broccoli Studios</span>
+          <a href="#" className="text-xl font-bold tracking-tight">
+            Broccoli Studios
           </a>
 
           {/* Desktop navigation */}
