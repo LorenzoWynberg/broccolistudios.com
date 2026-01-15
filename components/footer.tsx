@@ -1,3 +1,5 @@
+import { Logo } from '@/components/logo';
+
 const footerLinks = {
   services: [
     'Ecosystem & Business Architecture',
@@ -23,7 +25,9 @@ export function Footer() {
       <div className="mx-auto max-w-6xl">
         <div className="mb-12 grid gap-8 md:grid-cols-2 lg:grid-cols-4">
           <div>
-            <h3 className="mb-4 text-xl font-bold tracking-tight">Broccoli Studios</h3>
+            <div className="mb-4">
+              <Logo height={18} />
+            </div>
             <p className="text-muted-foreground text-sm">Technology, Data & Ecosystem Design</p>
           </div>
 
