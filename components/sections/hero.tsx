@@ -20,11 +20,21 @@ export function Hero() {
         </p>
 
         <div className="mb-16 flex flex-col gap-4 sm:flex-row">
-          <Button size="lg" className="group">
+          <Button
+            size="lg"
+            className="group"
+            onClick={() =>
+              document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' })
+            }
+          >
             Start a Strategy Call
             <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" />
           </Button>
-          <Button size="lg" variant="outline">
+          <Button
+            size="lg"
+            variant="outline"
+            onClick={() => document.getElementById('work')?.scrollIntoView({ behavior: 'smooth' })}
+          >
             Explore Our Work
           </Button>
         </div>
