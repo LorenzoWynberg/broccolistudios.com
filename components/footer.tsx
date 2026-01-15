@@ -26,7 +26,7 @@ export function Footer() {
         <div className="mb-12 grid gap-8 md:grid-cols-2 lg:grid-cols-4">
           <div>
             <div className="mb-4">
-              <Logo />
+              <Logo width={100} />
             </div>
             <p className="text-muted-foreground text-sm">Technology, Data & Ecosystem Design</p>
           </div>
