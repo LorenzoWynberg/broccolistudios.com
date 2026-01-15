@@ -10,7 +10,7 @@ export function Logo({ className = '', width = 140 }: LogoProps) {
     <svg
       width={width}
       height={height}
-      viewBox="0 0 140 56"
+      viewBox="0 0 150 56"
       fill="currentColor"
       xmlns="http://www.w3.org/2000/svg"
       className={className}
