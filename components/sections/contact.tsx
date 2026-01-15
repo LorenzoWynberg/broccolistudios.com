@@ -1,5 +1,5 @@
 import { Button } from '@/components/ui/button';
-import { ArrowRight } from 'lucide-react';
+import { ArrowRight, Mail } from 'lucide-react';
 
 export function Contact() {
   return (
@@ -14,9 +14,12 @@ export function Contact() {
         <p className="mb-8 text-lg opacity-80">
           Start a strategy conversation with Broccoli Studios.
         </p>
-        <Button size="lg" variant="secondary" className="group">
-          Contact Broccoli Studios
-          <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" />
+        <Button size="lg" variant="secondary" className="group" asChild>
+          <a href="mailto:hello@broccolistudios.com">
+            <Mail className="mr-2 h-4 w-4" />
+            hello@broccolistudios.com
+            <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" />
+          </a>
         </Button>
       </div>
     </section>

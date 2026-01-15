@@ -34,7 +34,9 @@ export function Navigation() {
                 {item.label}
               </a>
             ))}
-            <Button size="sm">Contact</Button>
+            <Button size="sm" asChild>
+              <a href="#contact">Contact</a>
+            </Button>
           </div>
 
           {/* Mobile menu button */}
@@ -62,8 +64,10 @@ export function Navigation() {
                 {item.label}
               </a>
             ))}
-            <Button size="sm" className="w-full">
-              Contact
+            <Button size="sm" className="w-full" asChild>
+              <a href="#contact" onClick={() => setIsOpen(false)}>
+                Contact
+              </a>
             </Button>
           </div>
         </div>
