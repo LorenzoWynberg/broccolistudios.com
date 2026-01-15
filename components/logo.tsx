@@ -35,8 +35,13 @@ export function Logo({ className = '', width = 140 }: LogoProps) {
         <path d="M142 2h5v21h-5z" />
       </g>
 
-      {/* STUDIOS - Medium weight, wider tracking */}
-      <g fontFamily="Arial, sans-serif" fontWeight="500" letterSpacing="2">
+      {/* STUDIOS - Medium weight, wider tracking, offset right */}
+      <g
+        fontFamily="Arial, sans-serif"
+        fontWeight="500"
+        letterSpacing="2"
+        transform="translate(50, 0)"
+      >
         {/* S */}
         <path d="M0 43c0-2.8 2.2-5 6-5 3.5 0 5.8 2 6 4.8h-3.5c-.2-1.2-1.2-2-2.5-2-1.5 0-2.5.8-2.5 2s.8 1.8 2.5 2.2l2 .5c3 .7 4.5 2.2 4.5 4.8 0 3-2.5 5.2-6.2 5.2-4 0-6.3-2.2-6.5-5.2h3.5c.2 1.5 1.3 2.5 3 2.5 1.7 0 2.7-.8 2.7-2.2 0-1.2-.8-1.8-2.5-2.2l-2-.5C1.8 47 0 45.5 0 43z" />
         {/* T */}
