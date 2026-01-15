@@ -4,9 +4,9 @@ interface LogoProps {
 
 export function Logo({ className = '' }: LogoProps) {
   return (
-    <span className={`inline-flex items-baseline gap-1 ${className}`}>
-      <span className="text-xl font-black tracking-tighter">BROCCOLI</span>
-      <span className="text-xl font-light tracking-[0.2em]">STUDIOS</span>
+    <span className={`inline-flex flex-col leading-none ${className}`}>
+      <span className="text-lg font-black tracking-tight">BROCCOLI</span>
+      <span className="text-[0.65rem] font-medium tracking-[0.35em]">STUDIOS</span>
     </span>
   );
 }
