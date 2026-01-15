@@ -20,7 +20,7 @@ export function Navigation() {
       <div className="mx-auto max-w-7xl px-6 md:px-12">
         <div className="flex h-16 items-center justify-between">
           <a href="#">
-            <Logo width={100} />
+            <Logo width={120} />
           </a>
 
           {/* Desktop navigation */}
