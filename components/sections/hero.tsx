@@ -1,11 +1,13 @@
 'use client';
 
 import { Button } from '@/components/ui/button';
+import { AnimatedGrid } from '@/components/animated-grid';
 import { ArrowRight, ChevronDown } from 'lucide-react';
 
 export function Hero() {
   return (
-    <section className="relative flex min-h-screen flex-col justify-center px-6 md:px-12 lg:px-24">
+    <section className="relative flex min-h-screen flex-col justify-center overflow-hidden px-6 md:px-12 lg:px-24">
+      <AnimatedGrid />
       <div className="max-w-5xl">
         <h1 className="mb-6 text-4xl font-bold tracking-tight md:text-5xl lg:text-6xl">
           Broccoli Studios
