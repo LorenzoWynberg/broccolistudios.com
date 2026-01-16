@@ -101,7 +101,14 @@
   "work": {
     "title": "Nos Projets",
     "description": "Études de cas d'écosystèmes que nous avons conçus et exploitons",
-    "outcome": "Résultat"
+    "outcome": "Résultat",
+    "scope": "Portée Broccoli Studios",
+    "close": "Fermer",
+    "backToWork": "Retour aux projets",
+    "outcomeTitle": "Focus Résultats",
+    "ctaText": "Vous voulez construire un écosystème similaire pour votre entreprise?",
+    "previous": "Précédent",
+    "next": "Suivant"
   },
   "about": {
     "title": "À Propos de Broccoli Studios",

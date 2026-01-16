@@ -101,7 +101,14 @@
   "work": {
     "title": "Nuestro Trabajo",
     "description": "Casos de estudio de ecosistemas propios que hemos diseñado y operamos",
-    "outcome": "Resultado"
+    "outcome": "Resultado",
+    "scope": "Alcance de Broccoli Studios",
+    "close": "Cerrar",
+    "backToWork": "Volver a proyectos",
+    "outcomeTitle": "Enfoque de Resultados",
+    "ctaText": "¿Quieres construir un ecosistema similar para tu negocio?",
+    "previous": "Anterior",
+    "next": "Siguiente"
   },
   "about": {
     "title": "Sobre Broccoli Studios",

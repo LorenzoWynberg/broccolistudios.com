@@ -101,7 +101,14 @@
   "work": {
     "title": "Our Work",
     "description": "Case studies from owned ecosystems we've designed and operate",
-    "outcome": "Outcome"
+    "outcome": "Outcome",
+    "scope": "Broccoli Studios Scope",
+    "close": "Close",
+    "backToWork": "Back to all work",
+    "outcomeTitle": "Outcome Focus",
+    "ctaText": "Want to build a similar ecosystem for your business?",
+    "previous": "Previous",
+    "next": "Next"
   },
   "about": {
     "title": "About Broccoli Studios",
