@@ -1,19 +1,21 @@
 'use client';
 
 import { useState } from 'react';
+import { useTranslations } from 'next-intl';
 import { Button } from '@/components/ui/button';
 import { Logo } from '@/components/logo';
 import { Menu, X } from 'lucide-react';
 
-const navItems = [
-  { label: 'Services', href: '#services' },
-  { label: 'Method', href: '#method' },
-  { label: 'Work', href: '#work' },
-  { label: 'About', href: '#about' },
-];
-
 export function Navigation() {
+  const t = useTranslations('nav');
   const [isOpen, setIsOpen] = useState(false);
+
+  const navItems = [
+    { label: t('services'), href: '#services' },
+    { label: t('method'), href: '#method' },
+    { label: t('work'), href: '#work' },
+    { label: t('about'), href: '#about' },
+  ];
 
   return (
     <nav className="bg-background/80 fixed top-0 right-0 left-0 z-50 border-b backdrop-blur-md">
@@ -35,7 +37,7 @@ export function Navigation() {
               </a>
             ))}
             <Button size="sm" asChild>
-              <a href="#contact">Contact</a>
+              <a href="#contact">{t('contact')}</a>
             </Button>
           </div>
 
@@ -66,7 +68,7 @@ export function Navigation() {
             ))}
             <Button size="sm" className="w-full" asChild>
               <a href="#contact" onClick={() => setIsOpen(false)}>
-                Contact
+                {t('contact')}
               </a>
             </Button>
           </div>

@@ -1,24 +1,24 @@
 'use client';
 
+import { useTranslations } from 'next-intl';
 import { Button } from '@/components/ui/button';
 import { AnimatedGrid } from '@/components/animated-grid';
 import { ArrowRight, ChevronDown } from 'lucide-react';
 
 export function Hero() {
+  const t = useTranslations('hero');
+
   return (
     <section className="relative flex min-h-screen flex-col justify-center overflow-hidden px-6 md:px-12 lg:px-24">
       <AnimatedGrid />
       <div className="max-w-5xl">
         <h1 className="mb-6 text-4xl font-bold tracking-tight md:text-5xl lg:text-6xl">
-          Broccoli Studios
-          <span className="text-muted-foreground mt-2 block">
-            Technology, Data & Ecosystem Design
-          </span>
+          {t('title')}
+          <span className="text-muted-foreground mt-2 block">{t('subtitle')}</span>
         </h1>
 
         <p className="text-muted-foreground mb-8 max-w-3xl text-lg md:text-xl">
-          We design and operate digital and physical ecosystems that transform experiences into
-          scalable systems and sustainable growth.
+          {t('description')}
         </p>
 
         <div className="mb-16 flex flex-col gap-4 sm:flex-row">
@@ -29,7 +29,7 @@ export function Hero() {
               document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' })
             }
           >
-            Start a Strategy Call
+            {t('cta')}
             <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" />
           </Button>
           <Button
@@ -37,27 +37,21 @@ export function Hero() {
             variant="outline"
             onClick={() => document.getElementById('work')?.scrollIntoView({ behavior: 'smooth' })}
           >
-            Explore Our Work
+            {t('ctaSecondary')}
           </Button>
         </div>
 
         <div className="border-t pt-8">
           <p className="text-muted-foreground mb-4 text-sm tracking-wider uppercase">
-            Core Capabilities
+            {t('capabilities')}
           </p>
           <div className="flex flex-wrap gap-3">
-            {[
-              'Ecosystem & Business Architecture',
-              'Technology & Platform Development',
-              'Data, AI & Intelligence',
-              'Growth & Revenue Systems',
-              'Experience Strategy',
-            ].map((capability) => (
+            {[1, 2, 3, 4, 5].map((i) => (
               <span
-                key={capability}
+                key={i}
                 className="bg-secondary text-secondary-foreground rounded-full px-3 py-1.5 text-sm"
               >
-                {capability}
+                {t(`capability${i}`)}
               </span>
             ))}
           </div>

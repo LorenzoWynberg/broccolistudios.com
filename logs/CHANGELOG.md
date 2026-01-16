@@ -10,6 +10,8 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
 ### Added
 
+- Internationalization (i18n) with EN, ES, FR support via next-intl
+- Language selector in footer
 - Contact form with Resend email integration
 - Neural network animated background in hero section
 - STYLEGUIDE.md design system documentation

@@ -1,10 +1,12 @@
 'use client';
 
 import { useState } from 'react';
+import { useTranslations } from 'next-intl';
 import { Button } from '@/components/ui/button';
 import { ArrowRight, Loader2 } from 'lucide-react';
 
 export function Contact() {
+  const t = useTranslations('contact');
   const [formData, setFormData] = useState({
     name: '',
     email: '',
@@ -61,16 +63,14 @@ export function Contact() {
     >
       <div className="mx-auto max-w-2xl">
         <div className="mb-12 text-center">
-          <h2 className="mb-4 text-3xl font-bold md:text-4xl">
-            Build infrastructure, not one-off solutions.
-          </h2>
-          <p className="text-lg opacity-80">Start a strategy conversation with Broccoli Studios.</p>
+          <h2 className="mb-4 text-3xl font-bold md:text-4xl">{t('title')}</h2>
+          <p className="text-lg opacity-80">{t('description')}</p>
         </div>
 
         {status === 'success' ? (
           <div className="bg-primary-foreground/10 rounded-lg p-8 text-center">
-            <h3 className="mb-2 text-xl font-semibold">Message sent!</h3>
-            <p className="opacity-80">We&apos;ll get back to you soon.</p>
+            <h3 className="mb-2 text-xl font-semibold">{t('success')}</h3>
+            <p className="opacity-80">{t('successDescription')}</p>
           </div>
         ) : (
           <form onSubmit={handleSubmit} className="space-y-4">
@@ -78,7 +78,7 @@ export function Contact() {
               <input
                 type="text"
                 name="name"
-                placeholder="Name *"
+                placeholder={`${t('name')} *`}
                 required
                 value={formData.name}
                 onChange={handleChange}
@@ -87,7 +87,7 @@ export function Contact() {
               <input
                 type="email"
                 name="email"
-                placeholder="Email *"
+                placeholder={`${t('email')} *`}
                 required
                 value={formData.email}
                 onChange={handleChange}
@@ -98,7 +98,7 @@ export function Contact() {
               <input
                 type="text"
                 name="companyName"
-                placeholder="Company name (optional)"
+                placeholder={t('company')}
                 value={formData.companyName}
                 onChange={handleChange}
                 className={inputClasses}
@@ -106,7 +106,7 @@ export function Contact() {
               <input
                 type="tel"
                 name="phoneNumber"
-                placeholder="Phone number (optional)"
+                placeholder={t('phone')}
                 value={formData.phoneNumber}
                 onChange={handleChange}
                 className={inputClasses}
@@ -115,7 +115,7 @@ export function Contact() {
             <div>
               <textarea
                 name="message"
-                placeholder="Tell us about your project... (min 50 characters) *"
+                placeholder={`${t('message')} *`}
                 required
                 rows={5}
                 value={formData.message}
@@ -123,7 +123,7 @@ export function Contact() {
                 className={`${inputClasses} resize-none`}
               />
               <p className="mt-1 text-sm opacity-60">
-                {formData.message.length}/50 characters minimum
+                {formData.message.length}/50 {t('charCount')}
               </p>
             </div>
 
@@ -139,11 +139,11 @@ export function Contact() {
               {status === 'loading' ? (
                 <>
                   <Loader2 className="mr-2 h-4 w-4 animate-spin" />
-                  Sending...
+                  {t('sending')}
                 </>
               ) : (
                 <>
-                  Send Message
+                  {t('submit')}
                   <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" />
                 </>
               )}

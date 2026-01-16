@@ -1,0 +1,141 @@
+{
+  "nav": {
+    "services": "Services",
+    "method": "Method",
+    "work": "Work",
+    "about": "About",
+    "contact": "Contact"
+  },
+  "hero": {
+    "title": "Broccoli Studios",
+    "subtitle": "Technology, Data & Ecosystem Design",
+    "description": "We design and operate digital and physical ecosystems that transform experiences into scalable systems and sustainable growth.",
+    "cta": "Start a Strategy Call",
+    "ctaSecondary": "Explore Our Work",
+    "capabilities": "Core Capabilities",
+    "capability1": "Ecosystem & Business Architecture",
+    "capability2": "Technology & Platform Development",
+    "capability3": "Data, AI & Intelligence",
+    "capability4": "Growth & Revenue Systems",
+    "capability5": "Experience Strategy"
+  },
+  "positioning": {
+    "title": "A Different Kind of Partner",
+    "description": "Broccoli Studios is not an agency. We don't execute campaigns or deliver one-off projects. We design, build, and operate the infrastructure that makes your business systematically scalable.",
+    "whatWeDo": "What we do",
+    "whatWeDont": "What we don't do",
+    "do1": "Design ecosystems that create compounding value",
+    "do2": "Build platforms that you own and control",
+    "do3": "Implement data systems that inform every decision",
+    "do4": "Create operational infrastructure that scales",
+    "dont1": "One-off campaigns or isolated projects",
+    "dont2": "Rent-seeking solutions with recurring fees",
+    "dont3": "Black-box systems you can't understand",
+    "dont4": "Work without measurable business outcomes"
+  },
+  "services": {
+    "title": "Services",
+    "description": "End-to-end ecosystem design, development, and operation.",
+    "service1": {
+      "title": "Ecosystem & Business Architecture",
+      "description": "We map your entire business landscape and design systems that connect every touchpoint into a coherent, scalable ecosystem."
+    },
+    "service2": {
+      "title": "Technology & Platform Development",
+      "description": "We build the platforms, tools, and integrations that power your ecosystem—owned by you, designed for growth."
+    },
+    "service3": {
+      "title": "Data, AI & Intelligence",
+      "description": "We implement data infrastructure that captures, processes, and activates insights across your entire operation."
+    },
+    "service4": {
+      "title": "Growth & Revenue Systems",
+      "description": "We design and connect the loops that drive acquisition, retention, and monetization systematically."
+    },
+    "service5": {
+      "title": "Experience Strategy",
+      "description": "We create experience blueprints that turn audiences into communities and customers into advocates."
+    }
+  },
+  "platforms": {
+    "title": "Platforms & Systems",
+    "description": "We work across the full spectrum of modern technology.",
+    "category1": "Development",
+    "category2": "Data & AI",
+    "category3": "Operations"
+  },
+  "method": {
+    "title": "Our Method",
+    "description": "A system-driven approach to building scalable ecosystems",
+    "step1": {
+      "number": "01",
+      "title": "Ecosystem Definition",
+      "description": "We map the full landscape of your business, identifying stakeholders, touchpoints, and opportunities for systemic value creation."
+    },
+    "step2": {
+      "number": "02",
+      "title": "System & Data Architecture",
+      "description": "We design the technical and data foundation that will power your ecosystem, ensuring every component connects and communicates."
+    },
+    "step3": {
+      "number": "03",
+      "title": "Platform Development",
+      "description": "We build the platforms and tools that bring your ecosystem to life, with a focus on scalability and long-term maintainability."
+    },
+    "step4": {
+      "number": "04",
+      "title": "Growth System Integration",
+      "description": "We connect growth loops, monetization strategies, and customer lifecycle systems to drive sustainable expansion."
+    },
+    "step5": {
+      "number": "05",
+      "title": "Continuous Optimization",
+      "description": "We monitor, analyze, and refine your ecosystem based on real data, ensuring it evolves with your business needs."
+    },
+    "outcomes": "What clients gain",
+    "outcome1": "Control",
+    "outcome2": "Scalability",
+    "outcome3": "Visibility",
+    "outcome4": "Measurable results"
+  },
+  "work": {
+    "title": "Our Work",
+    "description": "Case studies from owned ecosystems we've designed and operate",
+    "outcome": "Outcome"
+  },
+  "about": {
+    "title": "About Broccoli Studios",
+    "description": "Founded in Costa Rica, Broccoli Studios emerged from a simple observation: most businesses operate with fragmented systems, disconnected data, and experiences that don't compound.",
+    "paragraph1": "We build differently. Every system we design connects to a larger whole. Every platform we develop creates ownership and control. Every data point we capture feeds into smarter decisions.",
+    "paragraph2": "Our team combines deep technical expertise with strategic thinking, allowing us to operate at the intersection of business architecture and technology implementation.",
+    "stat1": "Years of ecosystem design",
+    "stat2": "Ecosystems built & operated",
+    "stat3": "Operational efficiency gains"
+  },
+  "contact": {
+    "title": "Build infrastructure, not one-off solutions.",
+    "description": "Start a strategy conversation with Broccoli Studios.",
+    "name": "Name",
+    "email": "Email",
+    "company": "Company name (optional)",
+    "phone": "Phone number (optional)",
+    "message": "Tell us about your project... (min 50 characters)",
+    "charCount": "characters minimum",
+    "submit": "Send Message",
+    "sending": "Sending...",
+    "success": "Message sent!",
+    "successDescription": "We'll get back to you soon.",
+    "error": "Something went wrong"
+  },
+  "footer": {
+    "tagline": "Technology, Data & Ecosystem Design",
+    "services": "Services",
+    "work": "Work",
+    "company": "Company",
+    "about": "About",
+    "method": "Method",
+    "contact": "Contact",
+    "rights": "All rights reserved.",
+    "language": "Language"
+  }
+}

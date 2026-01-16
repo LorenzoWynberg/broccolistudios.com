@@ -1,0 +1,141 @@
+{
+  "nav": {
+    "services": "Services",
+    "method": "Méthode",
+    "work": "Projets",
+    "about": "À propos",
+    "contact": "Contact"
+  },
+  "hero": {
+    "title": "Broccoli Studios",
+    "subtitle": "Technologie, Données et Conception d'Écosystèmes",
+    "description": "Nous concevons et exploitons des écosystèmes numériques et physiques qui transforment les expériences en systèmes évolutifs et en croissance durable.",
+    "cta": "Démarrer un Appel Stratégique",
+    "ctaSecondary": "Explorer Nos Projets",
+    "capabilities": "Compétences Clés",
+    "capability1": "Architecture d'Écosystèmes et Business",
+    "capability2": "Développement Technologique et Plateformes",
+    "capability3": "Données, IA et Intelligence",
+    "capability4": "Systèmes de Croissance et Revenus",
+    "capability5": "Stratégie d'Expérience"
+  },
+  "positioning": {
+    "title": "Un Partenaire Différent",
+    "description": "Broccoli Studios n'est pas une agence. Nous n'exécutons pas de campagnes et ne livrons pas de projets ponctuels. Nous concevons, construisons et exploitons l'infrastructure qui rend votre entreprise systématiquement évolutive.",
+    "whatWeDo": "Ce que nous faisons",
+    "whatWeDont": "Ce que nous ne faisons pas",
+    "do1": "Concevoir des écosystèmes qui créent une valeur composée",
+    "do2": "Construire des plateformes que vous possédez et contrôlez",
+    "do3": "Implémenter des systèmes de données qui informent chaque décision",
+    "do4": "Créer une infrastructure opérationnelle qui évolue",
+    "dont1": "Campagnes ponctuelles ou projets isolés",
+    "dont2": "Solutions avec frais récurrents",
+    "dont3": "Systèmes opaques que vous ne pouvez pas comprendre",
+    "dont4": "Travail sans résultats mesurables"
+  },
+  "services": {
+    "title": "Services",
+    "description": "Conception, développement et exploitation d'écosystèmes de bout en bout.",
+    "service1": {
+      "title": "Architecture d'Écosystèmes et Business",
+      "description": "Nous cartographions l'ensemble du paysage de votre entreprise et concevons des systèmes qui connectent chaque point de contact en un écosystème cohérent et évolutif."
+    },
+    "service2": {
+      "title": "Développement Technologique et Plateformes",
+      "description": "Nous construisons les plateformes, outils et intégrations qui alimentent votre écosystème—que vous possédez, conçus pour la croissance."
+    },
+    "service3": {
+      "title": "Données, IA et Intelligence",
+      "description": "Nous implémentons une infrastructure de données qui capture, traite et active les insights dans toute votre opération."
+    },
+    "service4": {
+      "title": "Systèmes de Croissance et Revenus",
+      "description": "Nous concevons et connectons les boucles qui stimulent l'acquisition, la rétention et la monétisation de manière systématique."
+    },
+    "service5": {
+      "title": "Stratégie d'Expérience",
+      "description": "Nous créons des plans d'expérience qui transforment les audiences en communautés et les clients en ambassadeurs."
+    }
+  },
+  "platforms": {
+    "title": "Plateformes et Systèmes",
+    "description": "Nous travaillons sur tout le spectre de la technologie moderne.",
+    "category1": "Développement",
+    "category2": "Données et IA",
+    "category3": "Opérations"
+  },
+  "method": {
+    "title": "Notre Méthode",
+    "description": "Une approche systémique pour construire des écosystèmes évolutifs",
+    "step1": {
+      "number": "01",
+      "title": "Définition de l'Écosystème",
+      "description": "Nous cartographions le paysage complet de votre entreprise, identifiant les parties prenantes, les points de contact et les opportunités de création de valeur systémique."
+    },
+    "step2": {
+      "number": "02",
+      "title": "Architecture Systèmes et Données",
+      "description": "Nous concevons la fondation technique et de données qui alimentera votre écosystème, assurant que chaque composant se connecte et communique."
+    },
+    "step3": {
+      "number": "03",
+      "title": "Développement de Plateforme",
+      "description": "Nous construisons les plateformes et outils qui donnent vie à votre écosystème, avec un focus sur l'évolutivité et la maintenabilité à long terme."
+    },
+    "step4": {
+      "number": "04",
+      "title": "Intégration des Systèmes de Croissance",
+      "description": "Nous connectons les boucles de croissance, stratégies de monétisation et systèmes de cycle de vie client pour stimuler une expansion durable."
+    },
+    "step5": {
+      "number": "05",
+      "title": "Optimisation Continue",
+      "description": "Nous surveillons, analysons et affinons votre écosystème basé sur des données réelles, assurant qu'il évolue avec les besoins de votre entreprise."
+    },
+    "outcomes": "Ce que les clients obtiennent",
+    "outcome1": "Contrôle",
+    "outcome2": "Évolutivité",
+    "outcome3": "Visibilité",
+    "outcome4": "Résultats mesurables"
+  },
+  "work": {
+    "title": "Nos Projets",
+    "description": "Études de cas d'écosystèmes que nous avons conçus et exploitons",
+    "outcome": "Résultat"
+  },
+  "about": {
+    "title": "À Propos de Broccoli Studios",
+    "description": "Fondé au Costa Rica, Broccoli Studios est né d'une simple observation : la plupart des entreprises fonctionnent avec des systèmes fragmentés, des données déconnectées et des expériences qui ne se composent pas.",
+    "paragraph1": "Nous construisons différemment. Chaque système que nous concevons se connecte à un tout plus grand. Chaque plateforme que nous développons crée propriété et contrôle. Chaque donnée que nous capturons alimente des décisions plus intelligentes.",
+    "paragraph2": "Notre équipe combine une expertise technique approfondie avec une réflexion stratégique, nous permettant d'opérer à l'intersection de l'architecture business et de l'implémentation technologique.",
+    "stat1": "Années de conception d'écosystèmes",
+    "stat2": "Écosystèmes construits et exploités",
+    "stat3": "Gains d'efficacité opérationnelle"
+  },
+  "contact": {
+    "title": "Construisez une infrastructure, pas des solutions ponctuelles.",
+    "description": "Démarrez une conversation stratégique avec Broccoli Studios.",
+    "name": "Nom",
+    "email": "E-mail",
+    "company": "Nom de l'entreprise (optionnel)",
+    "phone": "Numéro de téléphone (optionnel)",
+    "message": "Parlez-nous de votre projet... (min 50 caractères)",
+    "charCount": "caractères minimum",
+    "submit": "Envoyer le Message",
+    "sending": "Envoi en cours...",
+    "success": "Message envoyé !",
+    "successDescription": "Nous vous répondrons bientôt.",
+    "error": "Une erreur s'est produite"
+  },
+  "footer": {
+    "tagline": "Technologie, Données et Conception d'Écosystèmes",
+    "services": "Services",
+    "work": "Projets",
+    "company": "Entreprise",
+    "about": "À propos",
+    "method": "Méthode",
+    "contact": "Contact",
+    "rights": "Tous droits réservés.",
+    "language": "Langue"
+  }
+}

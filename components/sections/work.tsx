@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import { useTranslations } from 'next-intl';
 
 const caseStudies = [
   {
@@ -103,14 +104,14 @@ const caseStudies = [
 ];
 
 export function Work() {
+  const t = useTranslations('work');
+
   return (
     <section id="work" className="bg-secondary px-6 py-24 md:px-12 lg:px-24">
       <div className="mx-auto max-w-6xl">
         <div className="mb-12 text-center">
-          <h2 className="mb-4 text-3xl font-bold md:text-4xl">Our Work</h2>
-          <p className="text-muted-foreground mx-auto max-w-2xl text-lg">
-            Case studies from owned ecosystems we&apos;ve designed and operate
-          </p>
+          <h2 className="mb-4 text-3xl font-bold md:text-4xl">{t('title')}</h2>
+          <p className="text-muted-foreground mx-auto max-w-2xl text-lg">{t('description')}</p>
         </div>
 
         <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
@@ -136,7 +137,8 @@ export function Work() {
                 <h3 className="mb-2 text-lg font-semibold">{study.title}</h3>
                 <p className="text-muted-foreground mb-4 line-clamp-2 text-sm">{study.summary}</p>
                 <p className="text-muted-foreground border-t pt-3 text-xs">
-                  <span className="text-foreground font-medium">Outcome:</span> {study.outcome}
+                  <span className="text-foreground font-medium">{t('outcome')}:</span>{' '}
+                  {study.outcome}
                 </p>
               </div>
             </div>

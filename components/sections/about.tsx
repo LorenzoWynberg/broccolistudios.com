@@ -1,45 +1,31 @@
+import { useTranslations } from 'next-intl';
+
 export function About() {
+  const t = useTranslations('about');
+
   return (
     <section id="about" className="px-6 py-24 md:px-12 lg:px-24">
       <div className="mx-auto max-w-4xl">
-        <h2 className="mb-8 text-center text-3xl font-bold md:text-4xl">About Broccoli Studios</h2>
+        <h2 className="mb-8 text-center text-3xl font-bold md:text-4xl">{t('title')}</h2>
 
         <div className="mb-12 text-center">
-          <p className="text-muted-foreground mb-8 text-lg">
-            Broccoli Studios is a technology and ecosystem design company focused on building
-            systems that scale beyond individual projects.
-          </p>
+          <p className="text-muted-foreground mb-6 text-lg">{t('description')}</p>
+          <p className="text-muted-foreground mb-4">{t('paragraph1')}</p>
+          <p className="text-muted-foreground">{t('paragraph2')}</p>
+        </div>
 
-          <div className="grid gap-8 text-left md:grid-cols-2">
-            <div className="space-y-4">
-              <div className="rounded-lg border p-6">
-                <h3 className="mb-3 text-lg font-semibold">What We Do</h3>
-                <ul className="text-muted-foreground space-y-2">
-                  <li className="flex items-start">
-                    <span className="text-primary mr-2 font-bold">1.</span>
-                    We design the system
-                  </li>
-                  <li className="flex items-start">
-                    <span className="text-primary mr-2 font-bold">2.</span>
-                    We build the platform
-                  </li>
-                  <li className="flex items-start">
-                    <span className="text-primary mr-2 font-bold">3.</span>
-                    We define how it grows
-                  </li>
-                </ul>
-              </div>
-            </div>
-
-            <div className="space-y-4">
-              <div className="rounded-lg border p-6">
-                <h3 className="mb-3 text-lg font-semibold">Our Partner</h3>
-                <p className="text-muted-foreground">
-                  XR Studio executes the experience with precision and operational control, bringing
-                  our designs to life.
-                </p>
-              </div>
-            </div>
+        <div className="grid gap-8 md:grid-cols-3">
+          <div className="text-center">
+            <div className="text-primary mb-2 text-4xl font-bold">8+</div>
+            <p className="text-muted-foreground text-sm">{t('stat1')}</p>
+          </div>
+          <div className="text-center">
+            <div className="text-primary mb-2 text-4xl font-bold">15+</div>
+            <p className="text-muted-foreground text-sm">{t('stat2')}</p>
+          </div>
+          <div className="text-center">
+            <div className="text-primary mb-2 text-4xl font-bold">40%</div>
+            <p className="text-muted-foreground text-sm">{t('stat3')}</p>
           </div>
         </div>
       </div>

@@ -1,0 +1,141 @@
+{
+  "nav": {
+    "services": "Servicios",
+    "method": "Método",
+    "work": "Proyectos",
+    "about": "Nosotros",
+    "contact": "Contacto"
+  },
+  "hero": {
+    "title": "Broccoli Studios",
+    "subtitle": "Tecnología, Datos y Diseño de Ecosistemas",
+    "description": "Diseñamos y operamos ecosistemas digitales y físicos que transforman experiencias en sistemas escalables y crecimiento sostenible.",
+    "cta": "Iniciar una Llamada Estratégica",
+    "ctaSecondary": "Explorar Nuestro Trabajo",
+    "capabilities": "Capacidades Principales",
+    "capability1": "Arquitectura de Ecosistemas y Negocios",
+    "capability2": "Desarrollo de Tecnología y Plataformas",
+    "capability3": "Datos, IA e Inteligencia",
+    "capability4": "Sistemas de Crecimiento e Ingresos",
+    "capability5": "Estrategia de Experiencia"
+  },
+  "positioning": {
+    "title": "Un Tipo Diferente de Socio",
+    "description": "Broccoli Studios no es una agencia. No ejecutamos campañas ni entregamos proyectos únicos. Diseñamos, construimos y operamos la infraestructura que hace tu negocio sistemáticamente escalable.",
+    "whatWeDo": "Lo que hacemos",
+    "whatWeDont": "Lo que no hacemos",
+    "do1": "Diseñar ecosistemas que crean valor compuesto",
+    "do2": "Construir plataformas que tú controlas",
+    "do3": "Implementar sistemas de datos que informan cada decisión",
+    "do4": "Crear infraestructura operativa que escala",
+    "dont1": "Campañas únicas o proyectos aislados",
+    "dont2": "Soluciones con tarifas recurrentes",
+    "dont3": "Sistemas opacos que no puedes entender",
+    "dont4": "Trabajo sin resultados medibles"
+  },
+  "services": {
+    "title": "Servicios",
+    "description": "Diseño, desarrollo y operación de ecosistemas de principio a fin.",
+    "service1": {
+      "title": "Arquitectura de Ecosistemas y Negocios",
+      "description": "Mapeamos todo el panorama de tu negocio y diseñamos sistemas que conectan cada punto de contacto en un ecosistema coherente y escalable."
+    },
+    "service2": {
+      "title": "Desarrollo de Tecnología y Plataformas",
+      "description": "Construimos las plataformas, herramientas e integraciones que impulsan tu ecosistema—propiedad tuya, diseñadas para crecer."
+    },
+    "service3": {
+      "title": "Datos, IA e Inteligencia",
+      "description": "Implementamos infraestructura de datos que captura, procesa y activa insights en toda tu operación."
+    },
+    "service4": {
+      "title": "Sistemas de Crecimiento e Ingresos",
+      "description": "Diseñamos y conectamos los ciclos que impulsan adquisición, retención y monetización sistemáticamente."
+    },
+    "service5": {
+      "title": "Estrategia de Experiencia",
+      "description": "Creamos planos de experiencia que convierten audiencias en comunidades y clientes en defensores."
+    }
+  },
+  "platforms": {
+    "title": "Plataformas y Sistemas",
+    "description": "Trabajamos en todo el espectro de la tecnología moderna.",
+    "category1": "Desarrollo",
+    "category2": "Datos e IA",
+    "category3": "Operaciones"
+  },
+  "method": {
+    "title": "Nuestro Método",
+    "description": "Un enfoque sistemático para construir ecosistemas escalables",
+    "step1": {
+      "number": "01",
+      "title": "Definición del Ecosistema",
+      "description": "Mapeamos el panorama completo de tu negocio, identificando stakeholders, puntos de contacto y oportunidades para crear valor sistémico."
+    },
+    "step2": {
+      "number": "02",
+      "title": "Arquitectura de Sistemas y Datos",
+      "description": "Diseñamos la base técnica y de datos que impulsará tu ecosistema, asegurando que cada componente se conecte y comunique."
+    },
+    "step3": {
+      "number": "03",
+      "title": "Desarrollo de Plataforma",
+      "description": "Construimos las plataformas y herramientas que dan vida a tu ecosistema, con enfoque en escalabilidad y mantenibilidad a largo plazo."
+    },
+    "step4": {
+      "number": "04",
+      "title": "Integración de Sistemas de Crecimiento",
+      "description": "Conectamos ciclos de crecimiento, estrategias de monetización y sistemas de ciclo de vida del cliente para impulsar expansión sostenible."
+    },
+    "step5": {
+      "number": "05",
+      "title": "Optimización Continua",
+      "description": "Monitoreamos, analizamos y refinamos tu ecosistema basándonos en datos reales, asegurando que evolucione con las necesidades de tu negocio."
+    },
+    "outcomes": "Lo que obtienen los clientes",
+    "outcome1": "Control",
+    "outcome2": "Escalabilidad",
+    "outcome3": "Visibilidad",
+    "outcome4": "Resultados medibles"
+  },
+  "work": {
+    "title": "Nuestro Trabajo",
+    "description": "Casos de estudio de ecosistemas propios que hemos diseñado y operamos",
+    "outcome": "Resultado"
+  },
+  "about": {
+    "title": "Sobre Broccoli Studios",
+    "description": "Fundado en Costa Rica, Broccoli Studios surgió de una simple observación: la mayoría de los negocios operan con sistemas fragmentados, datos desconectados y experiencias que no se multiplican.",
+    "paragraph1": "Construimos diferente. Cada sistema que diseñamos se conecta a un todo mayor. Cada plataforma que desarrollamos crea propiedad y control. Cada dato que capturamos alimenta decisiones más inteligentes.",
+    "paragraph2": "Nuestro equipo combina profunda experiencia técnica con pensamiento estratégico, permitiéndonos operar en la intersección de arquitectura de negocios e implementación tecnológica.",
+    "stat1": "Años de diseño de ecosistemas",
+    "stat2": "Ecosistemas construidos y operados",
+    "stat3": "Mejoras en eficiencia operativa"
+  },
+  "contact": {
+    "title": "Construye infraestructura, no soluciones únicas.",
+    "description": "Inicia una conversación estratégica con Broccoli Studios.",
+    "name": "Nombre",
+    "email": "Correo electrónico",
+    "company": "Nombre de empresa (opcional)",
+    "phone": "Número de teléfono (opcional)",
+    "message": "Cuéntanos sobre tu proyecto... (mínimo 50 caracteres)",
+    "charCount": "caracteres mínimo",
+    "submit": "Enviar Mensaje",
+    "sending": "Enviando...",
+    "success": "¡Mensaje enviado!",
+    "successDescription": "Te responderemos pronto.",
+    "error": "Algo salió mal"
+  },
+  "footer": {
+    "tagline": "Tecnología, Datos y Diseño de Ecosistemas",
+    "services": "Servicios",
+    "work": "Proyectos",
+    "company": "Empresa",
+    "about": "Nosotros",
+    "method": "Método",
+    "contact": "Contacto",
+    "rights": "Todos los derechos reservados.",
+    "language": "Idioma"
+  }
+}
