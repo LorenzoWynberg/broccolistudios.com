@@ -10,9 +10,29 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
 ### Added
 
+- Contact form with Resend email integration
+- Neural network animated background in hero section
+- STYLEGUIDE.md design system documentation
+- Eager loading for work section images
+
+### Changed
+
+- Redesigned Our Work section as compact card grid (was alternating full-width)
+- Logo now uses styled text (Broccoli / STUDIOS stacked)
+- Hero buttons now scroll to appropriate sections
+
+### Fixed
+
+- Removed broken connector lines from method section
+- Navigation Contact buttons now link to contact section
+- Contact section has working mailto functionality
+
+### Infrastructure
+
 - Enhanced CLAUDE.md with jj commands, code quality order, workflow rules
 - Prettier configuration and format scripts
 - Documentation logs structure
+- `.env.example` for Resend API key
 
 ---
 
