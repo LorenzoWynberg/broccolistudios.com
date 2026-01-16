@@ -4,7 +4,10 @@ export function About() {
   const t = useTranslations('about');
 
   return (
-    <section id="about" className="px-6 py-24 md:px-12 lg:px-24">
+    <section
+      id="about"
+      className="texture-marble texture-grain relative px-6 py-24 md:px-12 lg:px-24"
+    >
       <div className="mx-auto max-w-4xl">
         <h2 className="mb-8 text-center text-3xl font-bold md:text-4xl">{t('title')}</h2>
 

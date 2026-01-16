@@ -7,7 +7,11 @@ export function Platforms() {
   const t = useTranslations('platforms');
 
   return (
-    <section id="platforms" className="bg-secondary px-6 py-24 md:px-12 lg:px-24">
+    <section
+      id="platforms"
+      className="bg-secondary texture-granite relative px-6 py-24 md:px-12 lg:px-24"
+    >
+      <div className="gold-accent absolute top-0 right-0 left-0" />
       <div className="mx-auto max-w-6xl">
         <div className="mb-16 text-center">
           <h2 className="mb-4 text-3xl font-bold md:text-4xl">{t('title')}</h2>
@@ -16,7 +20,7 @@ export function Platforms() {
 
         <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
           {[1, 2, 3].map((i) => (
-            <div key={i} className="bg-background rounded-lg p-6">
+            <div key={i} className="luxury-card bg-background rounded-lg p-6">
               {featureIcons[i - 1] &&
                 (() => {
                   const Icon = featureIcons[i - 1];

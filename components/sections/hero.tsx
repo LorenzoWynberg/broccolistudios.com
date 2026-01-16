@@ -9,11 +9,11 @@ export function Hero() {
   const t = useTranslations('hero');
 
   return (
-    <section className="relative flex min-h-screen flex-col justify-center overflow-hidden px-6 md:px-12 lg:px-24">
+    <section className="texture-marble texture-grain marble-shine stone-overlay relative flex min-h-screen flex-col justify-center overflow-hidden px-6 md:px-12 lg:px-24">
       <AnimatedGrid />
-      <div className="max-w-5xl">
+      <div className="relative z-10 max-w-5xl">
         <h1 className="mb-6 text-4xl font-bold tracking-tight md:text-5xl lg:text-6xl">
-          {t('title')}
+          <span className="text-gold-gradient">{t('title')}</span>
           <span className="text-muted-foreground mt-2 block">{t('subtitle')}</span>
         </h1>
 
@@ -24,7 +24,7 @@ export function Hero() {
         <div className="mb-16 flex flex-col gap-4 sm:flex-row">
           <Button
             size="lg"
-            className="group"
+            className="btn-luxury group"
             onClick={() =>
               document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' })
             }
@@ -35,13 +35,15 @@ export function Hero() {
           <Button
             size="lg"
             variant="outline"
+            className="btn-luxury"
             onClick={() => document.getElementById('work')?.scrollIntoView({ behavior: 'smooth' })}
           >
             {t('ctaSecondary')}
           </Button>
         </div>
 
-        <div className="border-t pt-8">
+        <div className="gold-accent mb-8" />
+        <div className="pt-0">
           <p className="text-muted-foreground mb-4 text-sm tracking-wider uppercase">
             {t('capabilities')}
           </p>

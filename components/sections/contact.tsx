@@ -59,8 +59,9 @@ export function Contact() {
   return (
     <section
       id="contact"
-      className="bg-primary text-primary-foreground px-6 py-24 md:px-12 lg:px-24"
+      className="bg-primary text-primary-foreground texture-grain relative px-6 py-24 md:px-12 lg:px-24"
     >
+      <div className="gold-accent absolute top-0 right-0 left-0" />
       <div className="mx-auto max-w-2xl">
         <div className="mb-12 text-center">
           <h2 className="mb-4 text-3xl font-bold md:text-4xl">{t('title')}</h2>

@@ -107,7 +107,11 @@ export function Work() {
   const t = useTranslations('work');
 
   return (
-    <section id="work" className="bg-secondary px-6 py-24 md:px-12 lg:px-24">
+    <section
+      id="work"
+      className="bg-secondary texture-granite relative px-6 py-24 md:px-12 lg:px-24"
+    >
+      <div className="gold-accent absolute top-0 right-0 left-0" />
       <div className="mx-auto max-w-6xl">
         <div className="mb-12 text-center">
           <h2 className="mb-4 text-3xl font-bold md:text-4xl">{t('title')}</h2>
@@ -118,7 +122,7 @@ export function Work() {
           {caseStudies.map((study) => (
             <div
               key={study.title}
-              className="bg-background group hover:border-primary/50 overflow-hidden rounded-lg border transition-colors"
+              className="luxury-card bg-background group overflow-hidden rounded-lg"
             >
               <div className="bg-muted relative aspect-[16/9] overflow-hidden">
                 <Image

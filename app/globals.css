@@ -46,73 +46,90 @@
   --radius-4xl: calc(var(--radius) + 16px);
 }
 
+/* Rock/Granite Luxury Theme */
 :root {
-  --radius: 0.625rem;
-  --background: oklch(1 0 0);
-  --foreground: oklch(0.145 0 0);
-  --card: oklch(1 0 0);
-  --card-foreground: oklch(0.145 0 0);
-  --popover: oklch(1 0 0);
-  --popover-foreground: oklch(0.145 0 0);
-  --primary: oklch(0.205 0 0);
-  --primary-foreground: oklch(0.985 0 0);
-  --secondary: oklch(0.97 0 0);
-  --secondary-foreground: oklch(0.205 0 0);
-  --muted: oklch(0.97 0 0);
-  --muted-foreground: oklch(0.556 0 0);
-  --accent: oklch(0.97 0 0);
-  --accent-foreground: oklch(0.205 0 0);
-  --destructive: oklch(0.577 0.245 27.325);
-  --border: oklch(0.922 0 0);
-  --input: oklch(0.922 0 0);
-  --ring: oklch(0.708 0 0);
-  --chart-1: oklch(0.646 0.222 41.116);
-  --chart-2: oklch(0.6 0.118 184.704);
-  --chart-3: oklch(0.398 0.07 227.392);
-  --chart-4: oklch(0.828 0.189 84.429);
-  --chart-5: oklch(0.769 0.188 70.08);
-  --sidebar: oklch(0.985 0 0);
-  --sidebar-foreground: oklch(0.145 0 0);
-  --sidebar-primary: oklch(0.205 0 0);
-  --sidebar-primary-foreground: oklch(0.985 0 0);
-  --sidebar-accent: oklch(0.97 0 0);
-  --sidebar-accent-foreground: oklch(0.205 0 0);
-  --sidebar-border: oklch(0.922 0 0);
-  --sidebar-ring: oklch(0.708 0 0);
+  --radius: 0.5rem;
+  /* Warm stone white - like polished marble */
+  --background: oklch(0.97 0.005 60);
+  --foreground: oklch(0.2 0.01 60);
+  /* Cards with subtle warmth */
+  --card: oklch(0.99 0.003 60);
+  --card-foreground: oklch(0.2 0.01 60);
+  --popover: oklch(0.99 0.003 60);
+  --popover-foreground: oklch(0.2 0.01 60);
+  /* Gold/champagne accent as primary */
+  --primary: oklch(0.55 0.12 75);
+  --primary-foreground: oklch(0.98 0.005 60);
+  /* Stone gray secondary */
+  --secondary: oklch(0.92 0.008 60);
+  --secondary-foreground: oklch(0.25 0.01 60);
+  /* Muted granite tones */
+  --muted: oklch(0.94 0.006 60);
+  --muted-foreground: oklch(0.45 0.01 60);
+  /* Warm stone accent */
+  --accent: oklch(0.9 0.015 70);
+  --accent-foreground: oklch(0.2 0.01 60);
+  --destructive: oklch(0.55 0.2 25);
+  /* Subtle warm borders */
+  --border: oklch(0.88 0.01 60);
+  --input: oklch(0.9 0.008 60);
+  --ring: oklch(0.55 0.12 75);
+  /* Charts with earth/gold tones */
+  --chart-1: oklch(0.55 0.12 75);
+  --chart-2: oklch(0.5 0.08 45);
+  --chart-3: oklch(0.45 0.06 30);
+  --chart-4: oklch(0.6 0.1 85);
+  --chart-5: oklch(0.4 0.04 60);
+  --sidebar: oklch(0.96 0.005 60);
+  --sidebar-foreground: oklch(0.2 0.01 60);
+  --sidebar-primary: oklch(0.55 0.12 75);
+  --sidebar-primary-foreground: oklch(0.98 0.005 60);
+  --sidebar-accent: oklch(0.92 0.008 60);
+  --sidebar-accent-foreground: oklch(0.25 0.01 60);
+  --sidebar-border: oklch(0.88 0.01 60);
+  --sidebar-ring: oklch(0.55 0.12 75);
 }
 
 .dark {
-  --background: oklch(0.145 0 0);
-  --foreground: oklch(0.985 0 0);
-  --card: oklch(0.205 0 0);
-  --card-foreground: oklch(0.985 0 0);
-  --popover: oklch(0.205 0 0);
-  --popover-foreground: oklch(0.985 0 0);
-  --primary: oklch(0.922 0 0);
-  --primary-foreground: oklch(0.205 0 0);
-  --secondary: oklch(0.269 0 0);
-  --secondary-foreground: oklch(0.985 0 0);
-  --muted: oklch(0.269 0 0);
-  --muted-foreground: oklch(0.708 0 0);
-  --accent: oklch(0.269 0 0);
-  --accent-foreground: oklch(0.985 0 0);
-  --destructive: oklch(0.704 0.191 22.216);
-  --border: oklch(1 0 0 / 10%);
-  --input: oklch(1 0 0 / 15%);
-  --ring: oklch(0.556 0 0);
-  --chart-1: oklch(0.488 0.243 264.376);
-  --chart-2: oklch(0.696 0.17 162.48);
-  --chart-3: oklch(0.769 0.188 70.08);
-  --chart-4: oklch(0.627 0.265 303.9);
-  --chart-5: oklch(0.645 0.246 16.439);
-  --sidebar: oklch(0.205 0 0);
-  --sidebar-foreground: oklch(0.985 0 0);
-  --sidebar-primary: oklch(0.488 0.243 264.376);
-  --sidebar-primary-foreground: oklch(0.985 0 0);
-  --sidebar-accent: oklch(0.269 0 0);
-  --sidebar-accent-foreground: oklch(0.985 0 0);
-  --sidebar-border: oklch(1 0 0 / 10%);
-  --sidebar-ring: oklch(0.556 0 0);
+  /* Deep charcoal with warm undertone - like dark granite */
+  --background: oklch(0.14 0.008 60);
+  --foreground: oklch(0.92 0.008 60);
+  /* Darker stone cards */
+  --card: oklch(0.18 0.01 55);
+  --card-foreground: oklch(0.92 0.008 60);
+  --popover: oklch(0.18 0.01 55);
+  --popover-foreground: oklch(0.92 0.008 60);
+  /* Gold/champagne primary - luxury accent */
+  --primary: oklch(0.72 0.14 75);
+  --primary-foreground: oklch(0.15 0.01 60);
+  /* Dark stone secondary */
+  --secondary: oklch(0.22 0.012 55);
+  --secondary-foreground: oklch(0.88 0.008 60);
+  /* Muted granite */
+  --muted: oklch(0.25 0.01 55);
+  --muted-foreground: oklch(0.6 0.015 60);
+  /* Stone accent */
+  --accent: oklch(0.28 0.015 60);
+  --accent-foreground: oklch(0.9 0.008 60);
+  --destructive: oklch(0.65 0.2 25);
+  /* Subtle warm borders */
+  --border: oklch(0.3 0.012 55);
+  --input: oklch(0.28 0.01 55);
+  --ring: oklch(0.72 0.14 75);
+  /* Charts with warm metallics */
+  --chart-1: oklch(0.72 0.14 75);
+  --chart-2: oklch(0.58 0.1 50);
+  --chart-3: oklch(0.5 0.08 35);
+  --chart-4: oklch(0.65 0.12 85);
+  --chart-5: oklch(0.55 0.06 60);
+  --sidebar: oklch(0.16 0.008 55);
+  --sidebar-foreground: oklch(0.92 0.008 60);
+  --sidebar-primary: oklch(0.72 0.14 75);
+  --sidebar-primary-foreground: oklch(0.15 0.01 60);
+  --sidebar-accent: oklch(0.22 0.012 55);
+  --sidebar-accent-foreground: oklch(0.88 0.008 60);
+  --sidebar-border: oklch(0.3 0.012 55);
+  --sidebar-ring: oklch(0.72 0.14 75);
 }
 
 @layer base {
@@ -122,4 +139,225 @@
   body {
     @apply bg-background text-foreground;
   }
+}
+
+/* Grain/noise texture overlay */
+.texture-grain::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  opacity: 0.4;
+  pointer-events: none;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)'/%3E%3C/svg%3E");
+}
+
+.dark .texture-grain::before {
+  opacity: 0.25;
+}
+
+/* Marble veining effect */
+.texture-marble {
+  background-image:
+    linear-gradient(
+      135deg,
+      transparent 0%,
+      transparent 40%,
+      oklch(0.88 0.01 60 / 0.3) 45%,
+      transparent 50%,
+      transparent 100%
+    ),
+    linear-gradient(
+      225deg,
+      transparent 0%,
+      transparent 60%,
+      oklch(0.85 0.015 70 / 0.2) 65%,
+      transparent 70%,
+      transparent 100%
+    ),
+    linear-gradient(
+      45deg,
+      transparent 0%,
+      transparent 75%,
+      oklch(0.9 0.008 60 / 0.15) 80%,
+      transparent 85%,
+      transparent 100%
+    );
+}
+
+.dark .texture-marble {
+  background-image:
+    linear-gradient(
+      135deg,
+      transparent 0%,
+      transparent 40%,
+      oklch(0.25 0.015 60 / 0.4) 45%,
+      transparent 50%,
+      transparent 100%
+    ),
+    linear-gradient(
+      225deg,
+      transparent 0%,
+      transparent 60%,
+      oklch(0.3 0.02 70 / 0.3) 65%,
+      transparent 70%,
+      transparent 100%
+    ),
+    linear-gradient(
+      45deg,
+      transparent 0%,
+      transparent 75%,
+      oklch(0.22 0.012 55 / 0.25) 80%,
+      transparent 85%,
+      transparent 100%
+    );
+}
+
+/* Granite speckle effect */
+.texture-granite {
+  background-image:
+    radial-gradient(circle at 20% 30%, oklch(0.75 0.02 60 / 0.15) 0%, transparent 1%),
+    radial-gradient(circle at 80% 20%, oklch(0.8 0.015 70 / 0.1) 0%, transparent 1.5%),
+    radial-gradient(circle at 40% 70%, oklch(0.7 0.025 55 / 0.12) 0%, transparent 1%),
+    radial-gradient(circle at 90% 80%, oklch(0.85 0.01 60 / 0.08) 0%, transparent 2%),
+    radial-gradient(circle at 10% 90%, oklch(0.72 0.02 65 / 0.1) 0%, transparent 1.2%),
+    radial-gradient(circle at 60% 40%, oklch(0.78 0.015 58 / 0.1) 0%, transparent 0.8%);
+  background-size:
+    100px 100px,
+    150px 150px,
+    120px 120px,
+    80px 80px,
+    90px 90px,
+    110px 110px;
+}
+
+.dark .texture-granite {
+  background-image:
+    radial-gradient(circle at 20% 30%, oklch(0.35 0.02 60 / 0.2) 0%, transparent 1%),
+    radial-gradient(circle at 80% 20%, oklch(0.4 0.015 70 / 0.15) 0%, transparent 1.5%),
+    radial-gradient(circle at 40% 70%, oklch(0.3 0.025 55 / 0.18) 0%, transparent 1%),
+    radial-gradient(circle at 90% 80%, oklch(0.45 0.01 60 / 0.12) 0%, transparent 2%),
+    radial-gradient(circle at 10% 90%, oklch(0.32 0.02 65 / 0.15) 0%, transparent 1.2%),
+    radial-gradient(circle at 60% 40%, oklch(0.38 0.015 58 / 0.14) 0%, transparent 0.8%);
+  background-size:
+    100px 100px,
+    150px 150px,
+    120px 120px,
+    80px 80px,
+    90px 90px,
+    110px 110px;
+}
+
+/* Gold shimmer accent line */
+.gold-accent {
+  background: linear-gradient(
+    90deg,
+    transparent,
+    oklch(0.72 0.14 75 / 0.4),
+    oklch(0.68 0.18 78 / 0.7),
+    oklch(0.72 0.14 75 / 0.4),
+    transparent
+  );
+  height: 2px;
+}
+
+/* Gold text gradient for headings */
+.text-gold-gradient {
+  background: linear-gradient(135deg, oklch(0.65 0.14 75), oklch(0.75 0.12 80), oklch(0.6 0.16 70));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* Luxury card hover effect */
+.luxury-card {
+  transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+  border: 1px solid oklch(0.88 0.01 60 / 0.5);
+}
+
+.luxury-card:hover {
+  border-color: oklch(0.65 0.14 75 / 0.5);
+  box-shadow:
+    0 4px 20px oklch(0.65 0.14 75 / 0.1),
+    0 0 40px oklch(0.65 0.14 75 / 0.05);
+}
+
+.dark .luxury-card {
+  border: 1px solid oklch(0.3 0.012 55 / 0.5);
+}
+
+.dark .luxury-card:hover {
+  border-color: oklch(0.72 0.14 75 / 0.5);
+  box-shadow:
+    0 4px 20px oklch(0.72 0.14 75 / 0.15),
+    0 0 40px oklch(0.72 0.14 75 / 0.08);
+}
+
+/* Elegant button with gold border on hover */
+.btn-luxury {
+  position: relative;
+  overflow: hidden;
+  transition: all 0.3s ease;
+}
+
+.btn-luxury::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  border: 1px solid transparent;
+  border-radius: inherit;
+  transition: border-color 0.3s ease;
+}
+
+.btn-luxury:hover::before {
+  border-color: oklch(0.65 0.14 75 / 0.6);
+}
+
+/* Marble polish shine effect */
+.marble-shine {
+  position: relative;
+}
+
+.marble-shine::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 50%;
+  height: 100%;
+  background: linear-gradient(90deg, transparent, oklch(1 0 0 / 0.03), transparent);
+  transform: skewX(-25deg);
+  animation: marble-shine 8s infinite;
+}
+
+.dark .marble-shine::after {
+  background: linear-gradient(90deg, transparent, oklch(1 0 0 / 0.02), transparent);
+}
+
+@keyframes marble-shine {
+  0% {
+    left: -100%;
+  }
+  50%,
+  100% {
+    left: 200%;
+  }
+}
+
+/* Stone texture overlay - more visible */
+.stone-overlay {
+  position: relative;
+}
+
+.stone-overlay::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 400 400' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.8' numOctaves='3' stitchTiles='stitch'/%3E%3CfeColorMatrix type='saturate' values='0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)'/%3E%3C/svg%3E");
+  opacity: 0.08;
+  pointer-events: none;
+  mix-blend-mode: overlay;
+}
+
+.dark .stone-overlay::before {
+  opacity: 0.12;
 }

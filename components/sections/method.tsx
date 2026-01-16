@@ -4,7 +4,10 @@ export function Method() {
   const t = useTranslations('method');
 
   return (
-    <section id="method" className="px-6 py-24 md:px-12 lg:px-24">
+    <section
+      id="method"
+      className="texture-marble texture-grain relative px-6 py-24 md:px-12 lg:px-24"
+    >
       <div className="mx-auto max-w-6xl">
         <div className="mb-16 text-center">
           <h2 className="mb-4 text-3xl font-bold md:text-4xl">{t('title')}</h2>
